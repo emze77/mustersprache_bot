@@ -2,7 +2,7 @@ import patterns from "./patterns.js";
 import { isDatabankEmpty, actualizeDatabank, parseArray } from "./handleDB.js";
 console.log("compose.js loaded!");
 
-const TOOT_MAX_LENGTH = 5000; //climatejustice.social
+const TOOT_MAX_LENGTH = 5000; //climatejustice.social configuration
 
 let leftPatterns;
 let nextPatternNumber;
@@ -61,13 +61,13 @@ const selectRandomPattern = () => {
 const composeExamples = () => {
   composedExamples = "";
   for (let i = 0; i < nextPattern.examples.length - OverflowAlarmLevel; i++) {
-    composedExamples += `👉 ${nextPattern.examples[i]} \n`;
+    composedExamples += `👉 ${nextPattern.examples[i]}\n`;
   }
 };
 
 const composeQuote = () => {
   if (nextPattern.quote !== "") {
-    possibleQuote = `\n\n🗿 ❝ ${nextPattern.quote} ❞`;
+    possibleQuote = `\n\n🗿 »${nextPattern.quote}«`;
   } else {
     possibleQuote = "";
   }
@@ -83,7 +83,7 @@ const composeHashtags = () => {
 
 const composeToToot = () => {
   tootParams = {
-    privacy: "unlisted", // not on the list in climatejustice.social?? 
+    privacy: "public",
     spoiler_text: nextPattern.title.toUpperCase(),
     status: `❓ ${nextPattern.problem}\n\n❕${nextPattern.solution}${possibleQuote}\n\n${composedExamples}\n\n${selectedQuestion}\n\n${composedHashtags}`,
     sensitive: false,
