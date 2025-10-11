@@ -1,0 +1,64 @@
+import Mastodon from "mastodon-api";
+import { createNextToot, nextPattern } from "./compose.js";
+import fs from "fs";
+import 'dotenv/config';
+
+console.log("mastodon bot starting...");
+
+let paramsText = createNextToot();
+
+const M = new Mastodon({
+  client_key: process.env.MASTODON_CLIENT_KEY,
+  client_secret: process.env.MASTODON_CLIENT_SECRET,
+  access_token: process.env.MASTODON_ACCESS_TOKEN,
+  api_url: process.env.MASTODON_API_URL, 
+  timeout_ms: 60 * 1000, // optional HTTP request timeout to apply to all requests.
+});
+
+(async () => {
+  // Upload media & description
+  const mediaResp = await M.post("media", {
+    file: fs.createReadStream(nextPattern.image),
+    description: nextPattern.imageDescription,
+  });
+
+  // Use the returned media ID and put it in Object
+  const paramsMedia = {
+    media_ids: [mediaResp.data.id],
+  };
+
+  // merge Parameters
+  let nextParams = Object.assign(paramsText, paramsMedia);
+
+  // !--ONLY FOR PRIVATE TESTING-------
+  // const testingParams = {
+  //   // in_reply_to_id: "mustersprache_bot",
+  //  visibility: "privat", 
+  // }
+  // nextParams = Object.assign(nextParams, testingParams);
+  // ---------------------------------
+
+   // Post status with media
+  await M.post(
+    "statuses",
+    nextParams,
+    (error, data) => {
+      if (error) {
+        console.error(error);
+      } else {
+        console.log(data);
+      }
+    }
+  );
+})();
+
+
+// Params:
+// https://github.com/spinda/mastodon-documentation/blob/master/Using-the-API/API.md
+// Field 	Description 	Optional
+// status 	The text of the status 	no
+// in_reply_to_id 	local ID of the status you want to reply to 	yes
+// media_ids 	Array of media IDs to attach to the status (maximum 4) 	yes
+// sensitive 	Set this to mark the media of the status as NSFW 	yes
+// spoiler_text 	Text to be shown as a warning before the actual content 	yes
+// visibility 	Either "direct", "private", "unlisted" or "public" 	yes

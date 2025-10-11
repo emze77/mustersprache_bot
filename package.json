@@ -1,0 +1,22 @@
+{
+  "name": "commoning-muster-bot",
+  "version": "1.0.0",
+  "description": "bot to publish random commoning patterns on mastodon in german lang",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commons",
+    "commoning",
+    "bot",
+    "mastodon"
+  ],
+  "author": "marcus meindel",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mastodon-api": "^1.3.0"
+  }
+}
