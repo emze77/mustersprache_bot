@@ -412,6 +412,125 @@ const patterns = [
     imageDescription: "abstract eye",
     specialHashtags: "#governance #supervision",
   },
+  {
+    title: "Gemeinsam erzeugen & nutzen",
+    problem:
+      "Wie gestaltet sich die Rollenteilung zwischen Produzierenden und Nutzenden?",
+    solution:
+      "An der Herstellung von Nützlichem sind all jene beteiligt, die es wünschen. So werden ihre produktiven Bedürfnisse einbezogen. Produziert wird für die individuelle, gemeinsame oder öffentliche Nutzung, entweder zusammen oder allein.",
+    quote:
+      "In Commons ist nicht ausgeschlossen, dass Waren für unbeteiligte Konsumentїnnen produziert werden, aber es ist nicht der Hauptzweck.",
+    examples: [
+      "In Offenen Werkstätten ist das Motto: Do it together (DIT) statt Do it yourself (DIY). Die Transition Town Initiative Eberswalde produzierte in einem öffentlichen Workshop Lastenräder , welche nun für alle ausleihbar sind.",
+      "Im Atelier Paysan stellen Entwicklerїnnen, Ingenieurїnnen und Bäuerїnnen arbeitsteilig und doch gemeinsam verschiedene Open-Source-Landmaschinen her, die den jeweiligen Bedingungen vor Ort sehr genau angepasst sind.",
+      "In der Solidarischen Landwirtschaft verschwimmen die Grenzen zwischen Produzieren und Konsumieren, wenn sich Mitglieder bei regelmäßigen Arbeitsansätzen an der Feldarbeit beteiligen.",
+    ],
+    context: [],
+    image: "./images/c1_erzeugnutzen.jpg",
+    imageDescription: "abstract circle build from within",
+    specialHashtags: "#solawi #economy",
+  },
+  {
+    title: "Werktätigkeit & (Für-)Sorge gleichwürdig anerkennen",
+    problem:
+      "Wie und auf welchen Grundlagen werden unterschiedliche Tätigkeiten anerkannt?",
+    solution:
+      'Sich um Mitmenschen und gemeinsam Genutztes zu kümmern, ist unabweisbarer Teil des Wirtschaftens. In diesem Verständnis, sind Sorge-Arbeit (Care) und "produktive" Arbeit gleichwürdig. Beide verdienen vielfältige Formen der Wertschätzung, die sich nicht daran orientieren, was wie gut verkaufbar ist. Bezahlung ist dabei nicht das primäre Mittel der Anerkennung. Entscheidend ist, dass Menschen ausreichend Zeit haben zu tun, was zu tun ist und dass sie über die Art der Anerkennung selbst bestimmen.',
+    quote: "",
+    examples: [
+      "Zeitbanken, wie die Stadin Aikapankki aus Helsinki, bewerten Zeit, Bedürfnisse und aktive Beiträge aller Beteiligten gleich.",
+      "Die Gleichwürdigkeit der Tätigkeiten drückt sich im selbstverwalteten Krankenhaus von Cecosesola unter anderem darin aus, dass alle ihre jeweiligen Arbeitsplätze selbst reinigen. So entsteht die Anerkennung aller notwendigen Tätigkeiten im eigenen Tun.",
+    ],
+    context: [],
+    image: "./images/c2_sorge.jpg",
+    imageDescription: "abstract circle builed by little blocks on common layer",
+    specialHashtags: "#cecosesola",
+  },
+  {
+    title: "Geldunabhängige Sicherheit schaffen",
+    problem:
+      "Wie ist der Herausforderung zu begegnen, ohne Einkommen nicht auszukommen?",
+    solution:
+      "Commoning kann Schritt für Schritt Leistungen ersetzen, die gemeinhin über den Markt vermittelt werden. Geschieht dies, ist weniger Geld für ein würdiges Leben nötig. Beziehungsnetze und Versorgungsstrukturen langlebiger Commons stiften nicht nur Zugehörigkeit, sondern auch materielle Sicherheit.",
+    quote: "",
+    examples: [
+      "Treuhänderische Organisationen wie die Kulturland Genossenschaft sichern Land für den Aufbau regionaler Versorgungsstrukturen durch Erbpacht, Crowdfunding und mehr.",
+      "Commonsgemäße Wohnprojekte und Bauformen sorgen langfristig für ein mietpreisunabhängiges Dach über dem Kopf. Dafür stehen exemplarisch das Berliner Hausprojekt Kumi 13 oder das in Wien entwickelte Baukonzept Vivihouse.",
+      'Im Gesundheitsbereich gibt es solidarische Unterstützungseinrichtungen ("Krankenversicherungen") wie Solidago oder Artabana.',
+    ],
+    context: [],
+    image: "./images/c3_sicherheit.jpg",
+    imageDescription: "small blocks building an umbrella-like sphere together",
+    specialHashtags: "#sicherheit",
+  },
+  {
+    title: "Das Produktionsrisiko gemeinsam tragen",
+    problem: "Wer trägt das Risiko für Produktion und Verteilung?",
+    solution:
+      "Risiken, die mit dem Wirtschaften verbunden sind, werden nicht nur von den Produzierenden, sondern auch von den Nutzenden getragen. Somit verschwimmen die Grenzen zwischen konsumieren und produzieren. Die geteilte Risikoverantwortung führt zu anderen Entscheidungen darüber, was, wann, wie produziert wird.",
+    quote:
+      "Die Risiken für die Einzelnen sind geteilt und dadurch überschaubar. Die potentiellen Vorteile für alle sind hingegen groß.",
+    examples: [
+      "Ernteausfälle gehören zu den Produktionsrisiken in der Landwirtschaft. In der Solidarischen Landwirtschaft werden sie vor der Produktion durch die Festlegung verbindlicher Monatsbeiträge auf alle Beteiligten verteilt.",
+      "Kollektive Investitionen und gemeinschaftsgetragene Vorfinanzierungen wie für das Mustersprachenkartenset bieten Produktionssicherheit.",
+    ],
+    context: [],
+    image: "./images/c4_produktionsrisiko.jpg",
+    imageDescription: "tangling lines inside an abstract circle",
+    specialHashtags: "#solawi",
+  },
+  {
+    title: "Konviviale Werkzeuge nutzen",
+    problem:
+      "Mit welchen Werkzeugen und Technologien wird gearbeitet? Was befördern, was unterbinden sie?",
+    solution:
+      "Commoners entwickeln, nutzen und pflegen Werkzeuge und Techniken, die zugänglich und veränderbar sind. Dadurch lassen sie sich auf unterschiedliche Produktionsnotwendigkeiten und Kontexte abstimmen. Technologien, die an einschränkende Nutzungsbedingungen der Hersteller geknüpft sind, werden abgelöst.",
+    quote: "",
+    examples: [
+      "Wikipedia als Alternative zum Brockhaus",
+      "OpenStreetMap als Alternative zu Google Maps",
+      "Gnu/Linux als Alternative zu MacOS oder Windows",
+      "Permakultur Techniken als Alternative zur industriellen Landwirtschaft",
+      "Landmaschinen von Atelier Paysan als Alternative zu Deere oder CNH Industrial",
+      "Vivihouse als Alternative zum Reihenhaus",
+      "Gnucash als Alternative zu kommerzieller Buchhaltungssoftware",
+    ],
+    context: [],
+    image: "./images/c5_konvival.jpg",
+    imageDescription: "integrated lines inside abstract circle",
+    specialHashtags: "#wikipedia #osm #linux #gnucash",
+  },
+  {
+    title: "Auf gemeinschaftsgetragene Infrastrukturen setzen",
+    problem: "Welche Infrastrukturen werden genutzt und aufgebaut?",
+    solution:
+      "Gemeinschaftsgetragene oder P2P-Infrastrukturen sind elementar. Sie decken auch ab, was der Markt ignoriert und werden als Voraussetzung und Mittel der Produktion von den Beteiligten selbst kontrolliert. Das schafft soziale Sicherheit, verringert Abhängigkeit und erleichtert die Kooperation in großem Maßstab.",
+    quote: "",
+    examples: [
+      "Es existieren zahlreiche Alternativen zu Monopolen:\n-- Guifi.net statt Telekom\n-- BigBlueButton statt Zoom\n-- Jitsi statt Skype\n-- PeerTube statt Youtube",
+      "Vermaschte Netze (Mesh Networks) tragen das Internet oder Funkdienste wie HAMNET und Freifunk.",
+      "Weltweit gibt es eine große Vielfalt von selbstverwalteten Bewässerungssystemen, so in der Schweiz die Bisses , Suonen oder Wässermatten.",
+    ],
+    context: [],
+    image: "./images/",
+    imageDescription: "little circles spreading out to create a common mesh",
+    specialHashtags: "#fediverse #mesh #freifunk #peertube #jitsi",
+  },
+  {
+    title: "Kreativ anpassen & erneuern",
+    problem: "Wie entsteht Neues?",
+    solution: "In Commons ist das Streben nach Neuem nicht wettbewerbsgetrieben, sondern verfolgt eigene Ziele. Bei beschränkten Mitteln ist Kreativität und Improvisation gefragt. Die Worte jugaad (Hindi) und bricolage (Frz.) beschreiben diese Praxis treffend: Mit dem, was verfügbar ist, Probleme lösen oder Neues kreieren.",
+    quote: "",
+    examples: [
+      'Die Open-Source-Maschinen und -pläne von Precious Plastic ermöglichen es allen, Plastik zu recyceln und für Sinnvolles "umzuwidmen".',
+      "Im Atelier Paysan entstehen Fahrradtraktoren (bicitracteurs) und Fahrradmaschinen (bicimachines) für viele landwirtschaftliche Zwecke.",
+      "Wie bei den Dortmunder Urbanisten nutzen viele Kreativprojekte Upcycling, um Neues zu schaffen.",
+    ],
+    context: [],
+    image: "./images/c7_anpassen.jpg",
+    imageDescription: "an abstract sphere is formed into something like a bean",
+    specialHashtags: "#upcycling #preciousPlatic #paysan #reuse",
+  },
 ];
 
 console.log("pattern.js loaded");
