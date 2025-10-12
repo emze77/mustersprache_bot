@@ -30,14 +30,6 @@ const M = new Mastodon({
   // merge Parameters
   let nextParams = Object.assign(paramsText, paramsMedia);
 
-  // !--ONLY FOR PRIVATE TESTING-------
-  // const testingParams = {
-  //   // in_reply_to_id: "mustersprache_bot",
-  //  visibility: "privat", 
-  // }
-  // nextParams = Object.assign(nextParams, testingParams);
-  // ---------------------------------
-
    // Post status with media
   await M.post(
     "statuses",
@@ -51,14 +43,3 @@ const M = new Mastodon({
     }
   );
 })();
-
-
-// Params:
-// https://github.com/spinda/mastodon-documentation/blob/master/Using-the-API/API.md
-// Field 	Description 	Optional
-// status 	The text of the status 	no
-// in_reply_to_id 	local ID of the status you want to reply to 	yes
-// media_ids 	Array of media IDs to attach to the status (maximum 4) 	yes
-// sensitive 	Set this to mark the media of the status as NSFW 	yes
-// spoiler_text 	Text to be shown as a warning before the actual content 	yes
-// visibility 	Either "direct", "private", "unlisted" or "public" 	yes
