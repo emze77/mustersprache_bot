@@ -18,7 +18,7 @@ Der Mastodon-Bot veröffentlicht einmal wöchentlich ein zufällig gewähltes Mu
 
 Die technische Grundlage verdanke ich einem Tutorial von [The Coding Train](https://thecodingtrain.com/tracks/mastodon/mastodon/setting-up-a-mastodon-bot) − vielen Dank hierfür!
 
-###  ## Installation
+### Installation
 
 #### Lokal Repository einrichten
 
