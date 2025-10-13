@@ -16,7 +16,7 @@ Die Illustrationen unterliegen der Peer Production License (PPL); Urheber ist Me
 
 Der Mastodon-Bot veröffentlicht einmal wöchentlich ein zufällig gewähltes Muster der Mustersprache. Nachdem jedes Muster einmal gepostet wurde, fängt die Auswahl wieder von vorne an.
 
-Die technische Grundlage verdanke ich einem Tutorial von \[The Coding Train\](https://thecodingtrain.com/tracks/mastodon/mastodon/setting-up-a-mastodon-bot) − vielen Dank hierfür!
+Die technische Grundlage verdanke ich einem Tutorial von [The Coding Train](https://thecodingtrain.com/tracks/mastodon/mastodon/setting-up-a-mastodon-bot) − vielen Dank hierfür!
 
 ###  ## Installation
 
