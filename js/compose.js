@@ -74,7 +74,7 @@ const composeQuote = () => {
 };
 
 const composeQuestion = () => {
-  selectedQuestion = openQuestions[Math.floor(Math.random() * openQuestions.length)]
+  selectedQuestion = '🗨 ' + openQuestions[Math.floor(Math.random() * openQuestions.length)]
 }
 
 const composeHashtags = () => {
