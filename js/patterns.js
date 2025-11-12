@@ -19,7 +19,7 @@ const patterns = [
     ],
     image: "./images/a1_vielfalt-ausrichten.jpg",
     imageDescription: "abstract spiral of dots",
-    specialHashtags: "#unitierra #now #fedwiki",
+    specialHashtags: ["unitierra", "now", "fedwiki",],
   },
   {
     title: "Wissen großzügig weitergeben",
@@ -47,7 +47,7 @@ const patterns = [
     image: "./images/a2_wissen-weitergeben.jpg",
     imageDescription: "abstract circle sending waves",
 
-    specialHashtags: "#foss #ose #solawi #linux",
+    specialHashtags: ["foss", "ose", "solawi", "linux"],
   },
   {
     title: "Im Vertrauensraum transparent sein",
@@ -70,7 +70,7 @@ const patterns = [
     image: "./images/a3_vertrauensraum-transparent.jpg",
     imageDescription: "a small abstract circle overlapping a bigger one",
 
-    specialHashtags: "#cusanus",
+    specialHashtags: ["cusanus"],
   },
   {
     title: "Gemeinstimmig entscheiden",
@@ -94,7 +94,7 @@ const patterns = [
     image: "./images/a4_gemeinstimmig-entscheiden.jpg",
     imageDescription: "abstract circle with three axes spiraling to the center",
 
-    specialHashtags: "#konsens",
+    specialHashtags: ["konsens"],
   },
   {
     title: "Commons mit halbdurchlässigen Membranen umgeben",
@@ -113,7 +113,7 @@ const patterns = [
     imageDescription:
       "abstract circle with small wholes to let outside energy in",
 
-    specialHashtags: "#copyfairlicense #mila",
+    specialHashtags: ["copyfairlicense", "mila"],
   },
   {
     title: "Augenhöhe in & durch Organisationsstrukturen ermöglichen",
@@ -131,7 +131,7 @@ const patterns = [
     image: "./images/a6_augenhoehe.jpg",
     imageDescription: "dots inside an abstract circle creating a common layer",
 
-    specialHashtags: "#inklusion",
+    specialHashtags: ["inklusion"],
   },
   {
     title: "Auf Heterarchie bauen",
@@ -151,7 +151,7 @@ const patterns = [
     imageDescription:
       "an abstract circle with a lot of connected abstract circles inside",
 
-    specialHashtags: "#soziokratie #occupy",
+    specialHashtags: ["soziokratie", "occupy"],
   },
 
   {
@@ -170,7 +170,7 @@ const patterns = [
     imageDescription:
       "kind of eyes inside an abstract circle watching each other",
 
-    specialHashtags: "",
+    specialHashtags: [],
   },
   {
     title: "Regelverstöße nachvollziehen & abgestuft sanktionieren",
@@ -187,7 +187,7 @@ const patterns = [
     context: [],
     image: "./images/a9_regelverstoesse.jpg",
     imageDescription: "lightning inside abstract circle",
-    specialHashtags: "#sanktionen",
+    specialHashtags: ["sanktionen"],
   },
   {
     title: "Beziehungshaftigkeit des Habens verankern",
@@ -205,7 +205,7 @@ const patterns = [
     context: [],
     image: "./images/a10_haben.jpg",
     imageDescription: "abstract circle with waves on it",
-    specialHashtags: "#eigentum #besitz",
+    specialHashtags: ["eigentum", "besitz"],
   },
   {
     title: "Einhegungen & Vereinnahmungen dazwischenfunken",
@@ -222,7 +222,7 @@ const patterns = [
     image: "./images/a11_eingehung.jpg",
     imageDescription:
       "an abstract circle building a hard shell against an opposing cuboid.",
-    specialHashtags: "#einhegung",
+    specialHashtags: ["einhegung"],
   },
   {
     title: "Commons & Kommerz auseinanderhalten",
@@ -239,7 +239,7 @@ const patterns = [
     image: "./images/a12_kommerz.jpg",
     imageDescription:
       "abstract circle with hard shell, defendig it against a lot of small incoming cuboids",
-    specialHashtags: "#encommuns #kommerzialisierung",
+    specialHashtags: ["encommuns", "kommerzialisierung"],
   },
   {
     title: "Commonsgemäß finanzieren",
@@ -256,7 +256,7 @@ const patterns = [
     context: [],
     image: "./images/a13_finanzieren.jpg",
     imageDescription: "abstract lines getting woven to an abstract circle",
-    specialHashtags: "#crowdfunding #grundeinkommen",
+    specialHashtags: ["crowdfunding", "grundeinkommen"],
   },
   {
     title: " Gemeinsame Absichten & Werte kultivieren",
@@ -273,7 +273,7 @@ const patterns = [
     context: [],
     image: "./images/b1_werte.jpg",
     imageDescription: "spiral inside an abstract circle which has no shell",
-    specialHashtags: "#werte #solawi",
+    specialHashtags: ["werte", "solawi"],
   },
   {
     title: "Ohne Zwänge beitragen",
@@ -290,7 +290,7 @@ const patterns = [
     ],
     context: [],
     image: "./images/b2_ohne-zwaenge.jpg",
-    specialHashtags: "#Freiwilligkeit",
+    specialHashtags: ["Freiwilligkeit"],
   },
   {
     title: "Gegenseitigkeit behutsam ausüben",
@@ -309,7 +309,7 @@ const patterns = [
     image: "./images/b3_gegenseitigkeit.jpg",
     imageDescription:
       "an abstract circle made of fragtile lines, covering it like worms.",
-    specialHashtags: "#tauschlogikfrei",
+    specialHashtags: ["tauschlogikfrei"],
   },
   {
     title: "Situiertem Wissen vertrauen",
@@ -327,7 +327,7 @@ const patterns = [
     context: [],
     image: "./images/b4_wissen.jpg",
     imageDescription: "abstract lines coming together and forming a hook",
-    specialHashtags: "#permakultur #knowledge",
+    specialHashtags: ["permakultur", "knowledge"],
   },
   {
     title: "Naturverbundensein vertiefen",
@@ -343,7 +343,7 @@ const patterns = [
     context: [],
     image: "./images/b5_natur.jpg",
     imageDescription: "abstract patterns forming some kind of leaf",
-    specialHashtags: "#natur #nature #permakultur",
+    specialHashtags: ["natur", "nature", "permakultur"],
   },
   {
     title: "Selbstverantwortlich & einfühlend kommunizieren",
@@ -360,7 +360,7 @@ const patterns = [
     context: [],
     image: "./images/b5_kommunikation.jpg",
     imageDescription: "abstract sphere which reminds of a seed",
-    specialHashtags: "#gfk #selbstverantwortung",
+    specialHashtags: ["gfk", "selbstverantwortung"],
   },
   {
     title: "Konflikte beziehungswahrend bearbeiten",
@@ -376,7 +376,7 @@ const patterns = [
     image: "./images/b6_konflikte.jpg",
     imageDescription:
       "abstract sphere with lighting in it, which transforms to waves",
-    specialHashtags: "#cecosesola",
+    specialHashtags: ["cecosesola"],
   },
   {
     title: "Rituale des Miteinanders etablieren & pflegen",
@@ -392,7 +392,7 @@ const patterns = [
     context: [],
     image: "./images/b7_rituale.jpg",
     imageDescription: "waves like hugs inside an abstract circle",
-    specialHashtags: "#ritual #community",
+    specialHashtags: ["ritual", "community"],
   },
   {
     title: "Eigene Governance reflektieren",
@@ -410,7 +410,7 @@ const patterns = [
     context: [],
     image: "./images/b8_governance.jpg",
     imageDescription: "abstract eye",
-    specialHashtags: "#governance #supervision",
+    specialHashtags: ["governance", "supervision"],
   },
   {
     title: "Gemeinsam erzeugen & nutzen",
@@ -428,7 +428,7 @@ const patterns = [
     context: [],
     image: "./images/c1_erzeugnutzen.jpg",
     imageDescription: "abstract circle build from within",
-    specialHashtags: "#solawi #economy",
+    specialHashtags: ["solawi", "economy"],
   },
   {
     title: "Werktätigkeit & (Für-)Sorge gleichwürdig anerkennen",
@@ -444,7 +444,7 @@ const patterns = [
     context: [],
     image: "./images/c2_sorge.jpg",
     imageDescription: "abstract circle builed by little blocks on common layer",
-    specialHashtags: "#cecosesola",
+    specialHashtags: ["cecosesola"],
   },
   {
     title: "Geldunabhängige Sicherheit schaffen",
@@ -461,7 +461,7 @@ const patterns = [
     context: [],
     image: "./images/c3_sicherheit.jpg",
     imageDescription: "small blocks building an umbrella-like sphere together",
-    specialHashtags: "#sicherheit",
+    specialHashtags: ["sicherheit"],
   },
   {
     title: "Das Produktionsrisiko gemeinsam tragen",
@@ -477,7 +477,7 @@ const patterns = [
     context: [],
     image: "./images/c4_produktionsrisiko.jpg",
     imageDescription: "tangling lines inside an abstract circle",
-    specialHashtags: "#solawi",
+    specialHashtags: ["solawi"],
   },
   {
     title: "Konviviale Werkzeuge nutzen",
@@ -498,7 +498,7 @@ const patterns = [
     context: [],
     image: "./images/c5_konvival.jpg",
     imageDescription: "integrated lines inside abstract circle",
-    specialHashtags: "#wikipedia #osm #linux #gnucash",
+    specialHashtags: ["wikipedia", "osm", "linux", "gnucash"],
   },
   {
     title: "Auf gemeinschaftsgetragene Infrastrukturen setzen",
@@ -514,7 +514,7 @@ const patterns = [
     context: [],
     image: "./images/",
     imageDescription: "little circles spreading out to create a common mesh",
-    specialHashtags: "#fediverse #mesh #freifunk #peertube #jitsi",
+    specialHashtags: ["fediverse", "mesh", "freifunk", "peertube", "jitsi"],
   },
   {
     title: "Kreativ anpassen & erneuern",
@@ -529,7 +529,7 @@ const patterns = [
     context: [],
     image: "./images/c7_anpassen.jpg",
     imageDescription: "an abstract sphere is formed into something like a bean",
-    specialHashtags: "#upcycling #preciousPlatic #paysan #reuse",
+    specialHashtags: ["upcycling", "preciousPlatic", "paysan", "reuse"],
   },
 ];
 
