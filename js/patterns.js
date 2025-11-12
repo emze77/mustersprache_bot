@@ -17,9 +17,9 @@ const patterns = [
       "Rituale des Miteinanders etablieren & pflegen",
       "Konflikte beziehungswahrend bearbeiten",
     ],
-    image: "./images/a1_vielfalt-ausrichten.jpg",
-    imageDescription: "abstract spiral of dots",
-    specialHashtags: ["unitierra", "now", "fedwiki",],
+  image: "./images/a1_vielfalt-ausrichten.jpg",
+  imageDescription: "Spirale aus Punkten auf dunklem Hintergrund, symbolisiert gemeinsames Ausrichten",
+  specialHashtags: ["fediverse", "mastodon", "selbstorganisation", "diversity", "governance"],
   },
   {
     title: "Wissen großzügig weitergeben",
@@ -44,10 +44,10 @@ const patterns = [
       "Kreativ anpassen & erneuern",
       "Konvivale Werkzeuge nutzen",
     ],
-    image: "./images/a2_wissen-weitergeben.jpg",
-    imageDescription: "abstract circle sending waves",
+  image: "./images/a2_wissen-weitergeben.jpg",
+  imageDescription: "Kreis mit stilisierten Wellen, steht für Verbreitung und Teilen von Wissen",
 
-    specialHashtags: ["foss", "ose", "solawi", "linux"],
+  specialHashtags: ["fediverse", "opensource", "FOSS", "knowledge", "solawi", "sharingknowledge"],
   },
   {
     title: "Im Vertrauensraum transparent sein",
@@ -67,10 +67,10 @@ const patterns = [
       "Selbstverantwortlich & einfühlend kommunizieren",
       "Augenhöhe in & durch Organisationsstrukturen ermöglichen",
     ],
-    image: "./images/a3_vertrauensraum-transparent.jpg",
-    imageDescription: "a small abstract circle overlapping a bigger one",
+  image: "./images/a3_vertrauensraum-transparent.jpg",
+  imageDescription: "Kleiner Kreis überlappt größeren, symbolisch für Vertrauens- und Schutzräume",
 
-    specialHashtags: ["cusanus"],
+  specialHashtags: ["fediverse", "vertrauen", "transparency", "selbstorganisation"],
   },
   {
     title: "Gemeinstimmig entscheiden",
@@ -91,10 +91,10 @@ const patterns = [
       "Selbstverantwortlich & einfühlend kommunizieren",
       "Augenhöhe in & durch Organisationsstrukturen ermöglichen",
     ],
-    image: "./images/a4_gemeinstimmig-entscheiden.jpg",
-    imageDescription: "abstract circle with three axes spiraling to the center",
+  image: "./images/a4_gemeinstimmig-entscheiden.jpg",
+  imageDescription: "Abstrakter Kreis mit drei Achsen, symbolisiert Entscheidungsprozesse und Ausrichtung",
 
-    specialHashtags: ["konsens"],
+  specialHashtags: ["fediverse", "konsent", "konsens", "partizipation", "governance"],
   },
   {
     title: "Commons mit halbdurchlässigen Membranen umgeben",
@@ -111,9 +111,9 @@ const patterns = [
     context: [],
     image: "./images/a5_membranen.jpg",
     imageDescription:
-      "abstract circle with small wholes to let outside energy in",
+      "Abstrakter Kreis mit kleinen Öffnungen, symbolisiert halbdurchlässige Membranen",
 
-    specialHashtags: ["copyfairlicense", "mila"],
+    specialHashtags: ["fediverse", "copyfair", "copyleft", "membrane"],
   },
   {
     title: "Augenhöhe in & durch Organisationsstrukturen ermöglichen",
@@ -128,10 +128,10 @@ const patterns = [
       "Es ist sinnvoll, Barrierefreiheit und umfassende Zugänglichkeit auf der Tagesordnung zu halten.",
     ],
     context: [],
-    image: "./images/a6_augenhoehe.jpg",
-    imageDescription: "dots inside an abstract circle creating a common layer",
+  image: "./images/a6_augenhoehe.jpg",
+  imageDescription: "Punkte innerhalb eines Kreises, die eine gemeinsame Schicht bilden (Augenhöhe)",
 
-    specialHashtags: ["inklusion"],
+  specialHashtags: ["fediverse", "inklusion", "accessibility", "equity", "community"],
   },
   {
     title: "Auf Heterarchie bauen",
@@ -149,9 +149,9 @@ const patterns = [
     context: [],
     image: "./images/a7_heterarchie.jpg",
     imageDescription:
-      "an abstract circle with a lot of connected abstract circles inside",
+      "Vernetzte Kreise, viele gleichrangige Knoten zeigen heterarchische Strukturen",
 
-    specialHashtags: ["soziokratie", "occupy"],
+    specialHashtags: ["fediverse", "soziokratie", "heterarchie", "peergovernance"],
   },
 
   {
@@ -168,9 +168,9 @@ const patterns = [
     context: [],
     image: "./images/a8_Regeleinhaltung.jpg",
     imageDescription:
-      "kind of eyes inside an abstract circle watching each other",
+      "Stilisierte Augen im Kreis, symbolisieren Beobachtung und gemeinschaftliche Regelprüfung",
 
-    specialHashtags: [],
+    specialHashtags: ["fediverse", "communityrules", "governance", "trust"],
   },
   {
     title: "Regelverstöße nachvollziehen & abgestuft sanktionieren",
@@ -185,9 +185,9 @@ const patterns = [
       "Über Gewaltfreie Kommunikation werden Bedürfnisse hinter Regelverstößen offengelegt.",
     ],
     context: [],
-    image: "./images/a9_regelverstoesse.jpg",
-    imageDescription: "lightning inside abstract circle",
-    specialHashtags: ["sanktionen"],
+  image: "./images/a9_regelverstoesse.jpg",
+  imageDescription: "Blitzsymbol im Kreis, symbolisiert Regelverstöße und Konflikte",
+  specialHashtags: ["fediverse", "conflictresolution", "mediation", "restorativejustice"],
   },
   {
     title: "Beziehungshaftigkeit des Habens verankern",
@@ -203,9 +203,9 @@ const patterns = [
       "Das Verbundwiki (Federated Wiki ) erleichtert es, individuelle und gemeinsame Wissensproduktion zusammenzubringen, ohne dass individuelle Leistungen dabei unsichtbar werden.",
     ],
     context: [],
-    image: "./images/a10_haben.jpg",
-    imageDescription: "abstract circle with waves on it",
-    specialHashtags: ["eigentum", "besitz"],
+  image: "./images/a10_haben.jpg",
+  imageDescription: "Kreis mit wellenförmigen Linien, symbolisiert Besitz, Nutzung und Beziehungen",
+  specialHashtags: ["fediverse", "sharedownership", "landtrust", "eigentum"],
   },
   {
     title: "Einhegungen & Vereinnahmungen dazwischenfunken",
@@ -220,9 +220,9 @@ const patterns = [
     ],
     context: [],
     image: "./images/a11_eingehung.jpg",
-    imageDescription:
-      "an abstract circle building a hard shell against an opposing cuboid.",
-    specialHashtags: ["einhegung"],
+      imageDescription:
+        "Kreis bildet harte Schale gegen äußere Formen, symbolisiert Einhegungen und Abschottung",
+      specialHashtags: ["fediverse", "anticommons", "einhegung", "resist", "commonsdefense"],
   },
   {
     title: "Commons & Kommerz auseinanderhalten",
@@ -238,8 +238,8 @@ const patterns = [
     context: [],
     image: "./images/a12_kommerz.jpg",
     imageDescription:
-      "abstract circle with hard shell, defendig it against a lot of small incoming cuboids",
-    specialHashtags: ["encommuns", "kommerzialisierung"],
+      "Kreis mit harter Schale, symbolisiert Schutz vor Kommerzialisierung und Enthäufung",
+    specialHashtags: ["fediverse", "solidarityeconomy", "anticommercialization", "encommuns"],
   },
   {
     title: "Commonsgemäß finanzieren",
@@ -254,9 +254,9 @@ const patterns = [
       "In der deutschsprachigen Commons-Community wird an Konzepten für ein gemeinschaftsgetragenes Grundeinkommen gearbeitet.",
     ],
     context: [],
-    image: "./images/a13_finanzieren.jpg",
-    imageDescription: "abstract lines getting woven to an abstract circle",
-    specialHashtags: ["crowdfunding", "grundeinkommen"],
+  image: "./images/a13_finanzieren.jpg",
+  imageDescription: "Verschlungene Linien formen einen Kreis, symbolisieren Finanzierungsnetzwerke und Solidarität",
+  specialHashtags: ["fediverse", "crowdfunding", "grundeinkommen", "communityfunding", "solidarityeconomy"],
   },
   {
     title: " Gemeinsame Absichten & Werte kultivieren",
@@ -271,9 +271,9 @@ const patterns = [
       "Anfang der 1970er wurde Longomai gegründet. Neben der autonomen Versorgung gehörte die 'grenzüberschreitende Solidarität' zu den Gründungsideen. Dies wird in Reflexionen zu politischen Themen und Solidaritätsaktionen wach gehalten und auf der Website sichtbar gemacht.",
     ],
     context: [],
-    image: "./images/b1_werte.jpg",
-    imageDescription: "spiral inside an abstract circle which has no shell",
-    specialHashtags: ["werte", "solawi"],
+  image: "./images/b1_werte.jpg",
+  imageDescription: "Spirale in offenem Kreis, steht für Wertebildung und gemeinschaftliche Kultur",
+  specialHashtags: ["fediverse", "werte", "communityculture", "solawi"],
   },
   {
     title: "Ohne Zwänge beitragen",
@@ -289,8 +289,9 @@ const patterns = [
       "Projekte wie das crowdfinanzierte, staatsunabhängige Grundeinkommen 'Mein Grundeinkommen' arbeiten auf Grundlage freiwilliger Beiträge.",
     ],
     context: [],
-    image: "./images/b2_ohne-zwaenge.jpg",
-    specialHashtags: ["Freiwilligkeit"],
+  image: "./images/b2_ohne-zwaenge.jpg",
+  imageDescription: "Menschen arbeiten zusammen, symbolisiert freiwilliges und nicht-zwanghaftes Beitragen",
+  specialHashtags: ["fediverse", "freiwilligkeit", "voluntary", "solidarity"],
   },
   {
     title: "Gegenseitigkeit behutsam ausüben",
@@ -307,9 +308,9 @@ const patterns = [
     ],
     context: [],
     image: "./images/b3_gegenseitigkeit.jpg",
-    imageDescription:
-      "an abstract circle made of fragtile lines, covering it like worms.",
-    specialHashtags: ["tauschlogikfrei"],
+      imageDescription:
+        "Fragmentierte Linien formen einen Kreis, symbolisieren gegenseitige Unterstützung",
+      specialHashtags: ["fediverse", "solidarity", "tauschlogikfrei", "sharingeconomy", "gifteconomy"],
   },
   {
     title: "Situiertem Wissen vertrauen",
@@ -325,9 +326,9 @@ const patterns = [
       "Bergsteigerïnnen können die Stabilität von Schneebrücken einschätzen, Fußballspielerïnnen ahnen, wohin und wie schnell der Ball fliegt und Ureinwohnerïnnen verfügen über eine subtile Ökosystemkenntnis z.B. über die Heilwirkung von Pflanzen",
     ],
     context: [],
-    image: "./images/b4_wissen.jpg",
-    imageDescription: "abstract lines coming together and forming a hook",
-    specialHashtags: ["permakultur", "knowledge"],
+  image: "./images/b4_wissen.jpg",
+  imageDescription: "Linien kommen zusammen und formen einen Haken, symbolisiert situiertes Wissen",
+  specialHashtags: ["fediverse", "permakultur", "localknowledge", "knowledge", "learningbydoing"],
   },
   {
     title: "Naturverbundensein vertiefen",
@@ -341,9 +342,9 @@ const patterns = [
       "Naturreservate werden oft an den dort lebenden Menschen vorbei geplant. Manche Naturschützerïnnen denken, die Natur wäre ohne die Menschen besser dran. So negieren sie uns auch als Naturwesen. Das Volk der San in Botswana hat mit dem Programm Der Mensch und die Biosphäre von 2007 das Gegenteil bewiesen.",
     ],
     context: [],
-    image: "./images/b5_natur.jpg",
-    imageDescription: "abstract patterns forming some kind of leaf",
-    specialHashtags: ["natur", "nature", "permakultur"],
+  image: "./images/b5_natur.jpg",
+  imageDescription: "Abstraktes Blattmuster, symbolisiert Naturverbundenheit und Biodiversität",
+  specialHashtags: ["fediverse", "nature", "permakultur", "regenerative", "biodiversity"],
   },
   {
     title: "Selbstverantwortlich & einfühlend kommunizieren",
@@ -358,9 +359,9 @@ const patterns = [
       "Manchmal kann es sinnvoll sein, Redezeiten unterschiedlicher Sprecherïnnengruppen zu erfassen.",
     ],
     context: [],
-    image: "./images/b5_kommunikation.jpg",
-    imageDescription: "abstract sphere which reminds of a seed",
-    specialHashtags: ["gfk", "selbstverantwortung"],
+  image: "./images/b5_kommunikation.jpg",
+  imageDescription: "Kugelähnliche Form wie ein Samen, symbolisiert Kommunikation und Wachstum",
+  specialHashtags: ["fediverse", "GFK", "gewaltfreiekommunikation", "communication", "empathy"],
   },
   {
     title: "Konflikte beziehungswahrend bearbeiten",
@@ -375,8 +376,8 @@ const patterns = [
     context: [],
     image: "./images/b6_konflikte.jpg",
     imageDescription:
-      "abstract sphere with lighting in it, which transforms to waves",
-    specialHashtags: ["cecosesola"],
+      "Leuchtende Kugel mit Wellen, symbolisiert dynamische Konfliktprozesse und ihre Bearbeitung",
+    specialHashtags: ["fediverse", "conflictresolution", "cecosesola", "communitycare", "mediation"],
   },
   {
     title: "Rituale des Miteinanders etablieren & pflegen",
@@ -390,9 +391,9 @@ const patterns = [
       "Die Offene Werkstatt Konglomerat e.V. verbindet Saubermachen mit Spaß und gestaltet regelmäßig Putzivals.",
     ],
     context: [],
-    image: "./images/b7_rituale.jpg",
-    imageDescription: "waves like hugs inside an abstract circle",
-    specialHashtags: ["ritual", "community"],
+  image: "./images/b7_rituale.jpg",
+  imageDescription: "Wellenförmige Formen wie Umarmungen im Kreis, symbolisieren Rituale und Zusammenhalt",
+  specialHashtags: ["fediverse", "rituals", "community", "belonging", "together"],
   },
   {
     title: "Eigene Governance reflektieren",
@@ -408,9 +409,9 @@ const patterns = [
       'Governance-Themen gehören regelmäßig auf die Tagesordnung. So kann zu Beginn von Treffen gefragt werden: "Gibt es einen Bereich unserer Organisation, den wir uns einmal in Ruhe anschauen sollten?"',
     ],
     context: [],
-    image: "./images/b8_governance.jpg",
-    imageDescription: "abstract eye",
-    specialHashtags: ["governance", "supervision"],
+  image: "./images/b8_governance.jpg",
+  imageDescription: "Stilisiertes Auge im Kreis, steht für Governance, Überwachung und Reflexion",
+  specialHashtags: ["fediverse", "governance", "selfgovernance", "reflection", "organizationaldevelopment"],
   },
   {
     title: "Gemeinsam erzeugen & nutzen",
@@ -426,9 +427,9 @@ const patterns = [
       "In der Solidarischen Landwirtschaft verschwimmen die Grenzen zwischen Produzieren und Konsumieren, wenn sich Mitglieder bei regelmäßigen Arbeitsansätzen an der Feldarbeit beteiligen.",
     ],
     context: [],
-    image: "./images/c1_erzeugnutzen.jpg",
-    imageDescription: "abstract circle build from within",
-    specialHashtags: ["solawi", "economy"],
+  image: "./images/c1_erzeugnutzen.jpg",
+  imageDescription: "Kreis, von innen aufgebaut – steht für gemeinschaftliche Produktion und Nutzung",
+  specialHashtags: ["fediverse", "collaboration", "communityproduction", "solawi"],
   },
   {
     title: "Werktätigkeit & (Für-)Sorge gleichwürdig anerkennen",
@@ -442,9 +443,9 @@ const patterns = [
       "Die Gleichwürdigkeit der Tätigkeiten drückt sich im selbstverwalteten Krankenhaus von Cecosesola unter anderem darin aus, dass alle ihre jeweiligen Arbeitsplätze selbst reinigen. So entsteht die Anerkennung aller notwendigen Tätigkeiten im eigenen Tun.",
     ],
     context: [],
-    image: "./images/c2_sorge.jpg",
-    imageDescription: "abstract circle builed by little blocks on common layer",
-    specialHashtags: ["cecosesola"],
+  image: "./images/c2_sorge.jpg",
+  imageDescription: "Kreis aus kleinen Blöcken, symbolisiert Sorgearbeit und tragende Gemeinschaftsstrukturen",
+  specialHashtags: ["fediverse", "carework", "careeconomy", "cecosesola", "valuingcare"],
   },
   {
     title: "Geldunabhängige Sicherheit schaffen",
@@ -459,9 +460,9 @@ const patterns = [
       'Im Gesundheitsbereich gibt es solidarische Unterstützungseinrichtungen ("Krankenversicherungen") wie Solidago oder Artabana.',
     ],
     context: [],
-    image: "./images/c3_sicherheit.jpg",
-    imageDescription: "small blocks building an umbrella-like sphere together",
-    specialHashtags: ["sicherheit"],
+  image: "./images/c3_sicherheit.jpg",
+  imageDescription: "Kleine Blöcke formen einen schirmartigen Schutz – symbolisiert soziale Sicherheit",
+  specialHashtags: ["fediverse", "communityresilience", "socialsafety", "sicherheit"],
   },
   {
     title: "Das Produktionsrisiko gemeinsam tragen",
@@ -475,9 +476,9 @@ const patterns = [
       "Kollektive Investitionen und gemeinschaftsgetragene Vorfinanzierungen wie für das Mustersprachenkartenset bieten Produktionssicherheit.",
     ],
     context: [],
-    image: "./images/c4_produktionsrisiko.jpg",
-    imageDescription: "tangling lines inside an abstract circle",
-    specialHashtags: ["solawi"],
+  image: "./images/c4_produktionsrisiko.jpg",
+  imageDescription: "Verschlungene Linien im Kreis, symbolisieren verflochtene Produktionsrisiken",
+  specialHashtags: ["fediverse", "sharedrisk", "solawi", "cooperative", "communityfinance"],
   },
   {
     title: "Konviviale Werkzeuge nutzen",
@@ -496,9 +497,9 @@ const patterns = [
       "Gnucash als Alternative zu kommerzieller Buchhaltungssoftware",
     ],
     context: [],
-    image: "./images/c5_konvival.jpg",
-    imageDescription: "integrated lines inside abstract circle",
-    specialHashtags: ["wikipedia", "osm", "linux", "gnucash"],
+  image: "./images/c5_konvival.jpg",
+  imageDescription: "Integrierte Linien im Kreis, symbolisieren vernetzte, konviviale Werkzeuge",
+  specialHashtags: ["fediverse", "opensource", "wikipedia", "osm", "linux", "digitalcommons"],
   },
   {
     title: "Auf gemeinschaftsgetragene Infrastrukturen setzen",
@@ -512,14 +513,15 @@ const patterns = [
       "Weltweit gibt es eine große Vielfalt von selbstverwalteten Bewässerungssystemen, so in der Schweiz die Bisses , Suonen oder Wässermatten.",
     ],
     context: [],
-    image: "./images/",
-    imageDescription: "little circles spreading out to create a common mesh",
-    specialHashtags: ["fediverse", "mesh", "freifunk", "peertube", "jitsi"],
+  image: "./images/",
+  imageDescription: "Kleine Kreise bilden ein vermaschtes Netzwerk, symbolisiert dezentrale Infrastruktur",
+  specialHashtags: ["fediverse", "mastodon", "mesh", "freifunk", "peertube", "jitsi", "p2p"],
   },
   {
     title: "Kreativ anpassen & erneuern",
     problem: "Wie entsteht Neues?",
-    solution: "In Commons ist das Streben nach Neuem nicht wettbewerbsgetrieben, sondern verfolgt eigene Ziele. Bei beschränkten Mitteln ist Kreativität und Improvisation gefragt. Die Worte jugaad (Hindi) und bricolage (Frz.) beschreiben diese Praxis treffend: Mit dem, was verfügbar ist, Probleme lösen oder Neues kreieren.",
+    solution:
+      "In Commons ist das Streben nach Neuem nicht wettbewerbsgetrieben, sondern verfolgt eigene Ziele. Bei beschränkten Mitteln ist Kreativität und Improvisation gefragt. Die Worte jugaad (Hindi) und bricolage (Frz.) beschreiben diese Praxis treffend: Mit dem, was verfügbar ist, Probleme lösen oder Neues kreieren.",
     quote: "",
     examples: [
       'Die Open-Source-Maschinen und -pläne von Precious Plastic ermöglichen es allen, Plastik zu recyceln und für Sinnvolles "umzuwidmen".',
@@ -527,9 +529,9 @@ const patterns = [
       "Wie bei den Dortmunder Urbanisten nutzen viele Kreativprojekte Upcycling, um Neues zu schaffen.",
     ],
     context: [],
-    image: "./images/c7_anpassen.jpg",
-    imageDescription: "an abstract sphere is formed into something like a bean",
-    specialHashtags: ["upcycling", "preciousPlatic", "paysan", "reuse"],
+  image: "./images/c7_anpassen.jpg",
+  imageDescription: "Kugel verwandelt sich zu bohnenartiger Form, symbolisiert Anpassung und Wiederverwendung",
+  specialHashtags: ["fediverse", "upcycling", "reuse", "preciousplastic", "maker", "circulareconomy"],
   },
 ];
 
