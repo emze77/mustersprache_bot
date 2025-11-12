@@ -3,6 +3,8 @@ import { isDatabankEmpty, actualizeDatabank, parseArray } from "./handleDB.js";
 console.log("compose.js loaded!");
 
 const TOOT_MAX_LENGTH = 5000; //climatejustice.social configuration
+const fixedHashtags = ["commons", "commoning", "Gemeingüter"]
+
 
 let leftPatterns;
 let nextPatternNumber;
@@ -14,7 +16,8 @@ let patternTooLong = false;
 let nextTootLength = 0;
 let tootParams;
 let selectedQuestion;
-let composedHashtags
+let composedHashtags;
+
 
 const openQuestions = [
   "Welche Beispiele kennst du?",
@@ -34,7 +37,7 @@ const createNextToot = () => {
   composeQuestion();
   composeHashtags();
   composeToToot();
-  checkTootLength();
+  cutExamplesIfNecessary();
   removeUsedPattern();
 
   if (patternTooLong) {
@@ -78,7 +81,8 @@ const composeQuestion = () => {
 }
 
 const composeHashtags = () => {
-  composedHashtags = `#commons #commoning ${nextPattern.specialHashtags}`;
+  const allHashtags = fixedHashtags.concat(nextPattern.specialHashtags)
+  composedHashtags = allHashtags.map(tag => `#${tag}`).join(' ');
 }
 
 const composeToToot = () => {
@@ -91,9 +95,7 @@ const composeToToot = () => {
   };
 };
 
-
-
-const checkTootLength = () => {
+const cutExamplesIfNecessary = () => {
   nextTootLength = tootParams.spoiler_text.length + tootParams.status.length;
   console.log(`Next toot length: ${nextTootLength} chars`);
 
@@ -113,6 +115,7 @@ const checkTootLength = () => {
     }
   }
 };
+
 
 const removeUsedPattern = () => {
   leftPatterns.splice(nextPatternNumber, 1);
