@@ -3,7 +3,7 @@ import { isDatabankEmpty, actualizeDatabank, parseArray } from "./handleDB.js";
 console.log("compose.js loaded!");
 
 const TOOT_MAX_LENGTH = 5000; //climatejustice.social configuration
-const fixedHashtags = ["commons", "commoning", "Gemeingüter"]
+const fixedHashtags = ["commons", "commoning"]
 
 
 let leftPatterns;
